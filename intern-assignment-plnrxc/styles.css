@@ -1,0 +1,256 @@
+body {
+    height: 100%;
+    width: 100%;
+    background-color: hsl(185, 41%, 84%);
+    font-family: "Space Mono", monospace;
+  }
+
+  .logo {
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 4%;
+  }
+
+  .bill{
+    margin-top:1%;
+  }
+
+  .tips{
+    margin-top:8%;
+  }
+
+  .numppl{
+    margin-top:8%;
+  }
+
+  .labels{
+    color: hsl(186, 14%, 43%);
+    font-weight: bold;
+    margin-bottom: 1%;
+  }
+
+  img {
+    max-width: auto;
+    height: auto;
+  }
+
+  .flex-container {
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 80%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+  .bill-wrapper{
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+    text-align: right;
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(189, 41%, 97%);
+    border: 2px solid hsl(189, 41%, 97%);
+    border-radius: .4rem;
+    width: auto;
+  }
+
+  .bill-box{
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+    text-align: right;
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(189, 41%, 97%);
+    border: 2px solid hsl(189, 41%, 97%);
+    border-radius: .4rem;
+    width: auto;
+  }
+
+  .bill-box:hover{
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+    text-align: right;
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(189, 41%, 97%);
+    border: 2px solid hsl(189, 41%, 97%);
+    border-radius: .4rem;
+    width: auto;
+  }
+
+  .bill-wrapper:hover{
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+    text-align: right;
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(189, 41%, 97%);
+    border: 2px solid hsl(172, 67%, 45%);
+    border-radius: .4rem;
+    width: auto;
+  }
+
+  .input-tip{
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+    margin-top: 1%;
+    border-radius: 3rem;
+    color: hsl(186, 14%, 43%);
+  }
+
+  .tip-button {
+    font-family: "Space Mono", monospace;
+    background-color: hsl(183, 100%, 15%);
+    color: white;
+    border: 2px solid hsl(183, 100%, 15%);
+    border-radius: .4rem;
+    padding: .25rem;
+    width: 40%;
+    height: 40%;
+    margin-top: 8%;
+    margin-bottom: 4%;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+
+  .tip-button:hover {
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+  }
+
+  .my-active{
+    background-color: hsl(172, 67%, 45%);
+    color: hsl(183, 100%, 15%);
+  }
+
+
+  .tip-custom {
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+    text-align: right;
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(189, 41%, 97%);
+    border: 2px solid hsl(189, 41%, 97%);
+    border-radius: .4rem;
+    padding: .25rem;
+    width: 40%;
+    height: 40%;
+    margin-top: 8%;
+    margin-bottom: 4%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tip-custom:hover {
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+    text-align: right;
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(189, 41%, 97%);
+    border: 2px solid hsl(172, 67%, 45%);
+    border-radius: .4rem;
+    padding: .25rem;
+    width: 40%;
+    height: 40%;
+    margin-top: 8%;
+    margin-bottom: 4%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+
+  .input-ppl{
+    
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+    text-align: right;
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(189, 41%, 97%);
+    border: 2px solid hsl(189, 41%, 97%);
+    border-radius: .4rem;
+    width: auto;
+  }
+
+  .input-ppl:hover{
+    
+    font-family: "Space Mono", monospace;
+    font-weight: bold;
+    text-align: right;
+    color: hsl(183, 100%, 15%);
+    background-color: hsl(189, 41%, 97%);
+    border: 2px solid hsl(172, 67%, 45%);
+    border-radius: .4rem;
+    width: auto;
+  }
+
+  .output-container {
+    margin-top: 8%;
+    margin-bottom: 4%;
+    background-color: hsl(183, 100%, 15%);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    border-radius: 1rem;
+    width: 40%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    .output-labels{
+      font-family: "Space Mono", monospace;
+      font-weight: bold;
+      margin-top: 15%;
+      color: white;
+      font-weight: bold;
+      margin-bottom: 1%;
+    }
+    .output-info{
+      font-family: "Space Mono", monospace;
+      font-weight: bold;
+      font-size: 2%;
+      color: hsl(185, 41%, 74%);
+      font-weight: bold;
+      margin-bottom: 1%;
+    }
+
+    .output-values{
+      color: hsl(172, 67%, 45%);
+    }
+
+    .reset-button {
+      font-family: "Space Mono", monospace;
+      font-weight: bold;
+      background-color: hsl(172, 67%, 45%);
+      color: hsl(183, 100%, 15%);
+      border: 2px solid hsl(172, 67%, 45%);
+      border-radius: .4rem;
+      padding: .25rem;
+      width: 80%;
+      height: auto;
+      margin-top: 8%;
+      margin-bottom: 4%;
+      margin-left: auto;
+      margin-right: auto;
+      
+    }
+
+    .reset-button:hover {
+      font-family: "Space Mono", monospace;
+      background-color: hsl(172, 67%, 45%);
+      color: white;
+      border: 2px solid hsl(183, 100%, 15%);
+      border-radius: .4rem;
+      padding: .25rem;
+      width: 80%;
+      height: auto;
+      margin-top: 8%;
+      margin-bottom: 4%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+  
+
+
+  

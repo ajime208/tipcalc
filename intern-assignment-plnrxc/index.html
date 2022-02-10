@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+    <title>Tip Calc App</title>
+
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+      <div class="logo">
+          <img src="images/logo.svg" alt=""/>
+      </div>
+
+    <div class="flex-container"> 
+            
+
+        <div class="input-container">
+
+            <div class="bill">
+                <div class="labels">
+                    <label for="myBill">Bill</label>
+                </div> 
+                
+                <div class="bill-wrapper">
+                    <input class="bill-box" type="text" name="myBill" id="myBill" placeholder="0"> 
+                    <img src="./images/icon-dollar.svg">
+                </div>   
+            </div>
+
+
+            <div class="tips">
+                <div class="labels">
+                    <label for="">Select Tip %</label>
+                </div> 
+                <div class="input-tip">
+                    <button type="button" class="tip-button tip" id="tip-button5">5%</button>
+                    <button type="button" class="tip-button tip" id="tip-button10">10%</button>
+                    <button type="button" class="tip-button tip my-active" id="tip-button15">15%</button>
+                    <button type="button" class="tip-button tip" id="tip-button25">25%</button>
+                    <button type="button" class="tip-button tip" id="tip-button50">50%</button>
+                    <input class="tip-custom" type="number" id="tip-custom" placeholder="Custom">
+                </div>   
+            </div> 
+            <div class="numppl">
+                <div class="labels">
+                    <label for="">Number of People</label>
+                </div> 
+                <div class="input-ppl">
+                    <img src="./images/icon-person.svg">
+                    <input type="number" class="input-ppl" id="input-myppl" placeholder="1">
+                    
+                </div> 
+            </div>   
+        </div>
+
+
+        <div class="output-container">
+
+            <div class="output-wrap">
+                <div class="output-labels">
+                    <label for="">Tip Amount</label> 
+                </div>
+
+                <div class="output-info">
+                    <label for="">/ Person</label>
+                </div>
+
+                <div class="output-values">$0</div>
+
+                <div class="output-labels">
+                    <label for="">Total</label>
+                </div>
+
+                <div class="output-info">
+                    <label for="">/ Person</label>
+                </div>
+
+                <div class="output-values">$0</div>
+            </div>
+            <button type="button" class="reset-button new" id="reset-button">RESET</button>
+        </div>
+
+
+    </div>
+
+    
+    
+      
+    <script src="./app.js"></script>
+</body>
+
+</html>
+
+
